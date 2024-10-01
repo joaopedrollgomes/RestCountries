@@ -8,7 +8,8 @@ https://rest-countries-chi-nine.vercel.app/
 ## Atualizações Futuras
 * Melhorar a semântica HTML visando acessibilidade e boas práticas de SEO;
 * Implementar Media Query visando melhorar a UX em diferentes telas;
-* Adicionar a opção de retirar a ordenação selecionada;
+* Analisando a estrutura atual da aplicação, sinto a necessidade de modificar os menus de filtro e ordenação. Atualmente, o menu está estruturado como um Dropdown, que, embora transmita a sensação de um design limpo por economizar espaço visual, apresenta problemas em relação à segurança na seleção das opções desejadas. Caso o usuário mova o mouse fora da área de seleção, o menu fecha inadvertidamente. Para amenizar esse problema, implementei uma solução em que o menu mantém o último estado clicado, de modo que, se o usuário retirar o mouse da área de seleção, ao voltar, o menu permaneça da mesma forma. No entanto, essa abordagem ainda oferece dificuldades de interação em telas touch. Poderia simplesmente fazer um menu full onClick ? Sim! Mas preferi utilizar as técnicas existentes em alguns sites de venda/varejo.
+ Dito isso, irei modificar os menus para uma filtragem e ordenação com múltiplas seleções (um menu com checkbox). Embora essa solução consuma mais espaço de tela, a experiência do usuário (UX) será aprimorada, oferecendo mais clareza e facilidade de uso. As opções de filtro e ordenação serão mais acessíveis e proporcionarão um feedback imediato. Isso também simplificará o código, já que a adição de botões para remover filtros selecionados será desnecessária; 
 * Melhorar a estilização e adicionar modo Light e Dark;
 * O projeto irá se manter constantemente atualizado.
 
