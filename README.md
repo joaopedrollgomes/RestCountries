@@ -10,7 +10,6 @@ https://rest-countries-chi-nine.vercel.app/
 * Implementar Media Query visando melhorar o UX em diferentes telas;
 * Adicionar a opção de retirar a ordenação selecionada;
 * Melhorar a estilização e adicionar modo Light e Dark;
-* Retirar as funções de filtro e ordenação do App.js e padronizar em seus respectivos arquivos, para facilitar o entendimento do código e atualizações;
 * O projeto irá se manter constantemente atualizado.
 
 ## Planejamento
