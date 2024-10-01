@@ -7,7 +7,7 @@ https://rest-countries-chi-nine.vercel.app/
 
 ## Atualizações Futuras
 * Melhorar a semântica HTML visando acessibilidade e boas práticas de SEO;
-* Implementar Media Query visando melhorar o UX em diferentes telas;
+* Implementar Media Query visando melhorar a UX em diferentes telas;
 * Adicionar a opção de retirar a ordenação selecionada;
 * Melhorar a estilização e adicionar modo Light e Dark;
 * O projeto irá se manter constantemente atualizado.
